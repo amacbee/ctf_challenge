@@ -17,5 +17,12 @@ DISTRIB_DESCRIPTION="Ubuntu 14.04.3 LTS"
 インストール用コマンド
 
 ```
-$ sudo sh install.sh
+git clone git@github.com:amacbee/ctf_challenge.git
+rm Vagrantfile
+ln -s ctf_challenge/Vagrantfile Vagrantfile
+vagrant up
+vagrant provision
 ```
+
+
+
