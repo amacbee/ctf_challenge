@@ -18,10 +18,11 @@ cd dex2jar-2.0
 chmod u+x ./*.sh
 export PATH=$PATH:/vagrant/dex2jar
 
-apt-get install -y libgtk2.0-0:i386 libxxf86vm1:i386 libsm6:i386 lib23stdc++6
-wget http://jd.benow.ca/jd-gui/downloads/jd-gui-0.3.5.linux.i686.tar.gz
-tar zxvf jd-gui-0.3.5.linux.i686.tar.gz
-rm -rf jd-gui-0.3.5.linux.i686.tar.gz
-export PATH=$PATH:/vagrant/jd-gui
+# これもコケるんだけどよく分からず
+# apt-get install -y libgtk2.0-0:i386 libxxf86vm1:i386 libsm6:i386 lib23stdc++6
+# wget http://jd.benow.ca/jd-gui/downloads/jd-gui-0.3.5.linux.i686.tar.gz
+# tar zxvf jd-gui-0.3.5.linux.i686.tar.gz
+# rm -rf jd-gui-0.3.5.linux.i686.tar.gz
+# export PATH=$PATH:/vagrant/jd-gui
 
 
