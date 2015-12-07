@@ -24,5 +24,26 @@ vagrant up
 vagrant provision
 ```
 
+## 導入されるツール
 
+現時点だとバイナリ解析用のツールがほとんど（デフォルトで入っているものも含む）
+
+- file
+- readelf
+- strings
+- unzip
+- tar
+- xz
+- strace
+- ltrace
+- ghex
+- gdb
+- objdump
+- binutils
+- dex2jar
+
+いずれ入れたい
+
+- radare2
+- jd-gui
 
