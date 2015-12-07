@@ -25,4 +25,6 @@ export PATH=$PATH:/vagrant/dex2jar
 # rm -rf jd-gui-0.3.5.linux.i686.tar.gz
 # export PATH=$PATH:/vagrant/jd-gui
 
-
+# zsh
+apt-get install -y zsh
+apt-get install -y gccgo-go
